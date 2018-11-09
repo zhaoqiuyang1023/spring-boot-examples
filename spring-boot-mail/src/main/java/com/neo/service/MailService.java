@@ -13,4 +13,6 @@ public interface MailService {
 
     public void sendInlineResourceMail(String to, String subject, String content, String rscPath, String rscId);
 
+    public void sendThymeleafResourceMail(String to, String subject, String content, String rscPath, String rscId);
+
 }

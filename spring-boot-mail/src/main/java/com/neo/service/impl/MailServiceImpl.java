@@ -71,9 +71,6 @@ public class MailServiceImpl implements MailService{
             helper.setTo(to);
             helper.setSubject(subject);
             helper.setText(content, true);
-        /*    Resource resource = new ClassPathResource("static/favicon.ico");
-            File file = resource.getFile();
-            helper.addInline("src" ,resource);*/
 
             mailSender.send(message);
             logger.info("html邮件发送成功");
@@ -140,5 +137,10 @@ public class MailServiceImpl implements MailService{
         } catch (MessagingException e) {
             logger.error("发送嵌入静态资源的邮件时发生异常！", e);
         }
+    }
+
+    @Override
+    public void sendThymeleafResourceMail(String to, String subject, String content, String rscPath, String rscId) {
+
     }
 }

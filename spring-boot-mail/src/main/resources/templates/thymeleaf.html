@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<div th:text="${#dates.format(date,'yyyy-MM-dd HH:mm:ss')}">
+
+</div>
+<body>
+这是有图片的邮件：
+<div>
+    <div>
+        <img src='../static/favicon.ico' th:src='|cid:image1|'/>
+    </div>
+    <img src='../static/favicon.ico' th:src='|cid:image2|'/>
+</div>
+<div>
+    用户名：<span th:text="${userName}">小强</span>
+</div>
+<div>
+    <h1>您好,这是验证邮件,请点击下面的链接完成验证,</h1>
+    <a href="thymeleaf.html" th:href="|${url}|">激活账号</a>
+</div>
+
+</body>
+</html>

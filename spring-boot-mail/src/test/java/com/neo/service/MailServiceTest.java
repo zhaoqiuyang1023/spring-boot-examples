@@ -10,8 +10,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by summer on 2017/5/4.
@@ -51,7 +51,13 @@ public class MailServiceTest {
     @Test
     public void sendInlineResourceMail() throws IOException {
         String rscId = "neo006";
-        String content="<html><body>这是有图片的邮件：<img src=\'cid:" + rscId + "\' ></body></html>";
+      // String content="<html><body>这是有图片的邮件：<img src='cid:neo006'></body></html>";
+        InputStream inputStream=new ClassPathResource("templates/emailTemplate.html").getInputStream();
+       String content = new BufferedReader(new InputStreamReader(inputStream))
+            .lines().collect(Collectors.joining(System.lineSeparator()));
+        System.out.print(content);
+   /*     HttpServletRequest request=ServletActionContext.getRequest();
+        request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()*/
         Resource resource = new ClassPathResource("static/favicon.ico");
         File file = resource.getFile();
 
