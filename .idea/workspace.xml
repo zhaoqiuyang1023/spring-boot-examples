@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d16d935d-b48c-48fe-a004-c8e75d93ca78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/controller/SendEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/static/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/thymeleaf.html" afterDir="false" />
+    <list default="true" id="d16d935d-b48c-48fe-a004-c8e75d93ca78" name="Default Changelist" comment="完善模板发邮件">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_oschina_zcx7878_fastdfs_client_java_1_27_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fastDFS/spring-boot-fastDFS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mail/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mail/spring-boot-mail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/spring-boot-mail.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/service/MailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/service/impl/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/service/impl/MailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-fastDFS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-fastDFS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/fastdfs/FastDFSClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/fastdfs/FastDFSClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/fdfs_client.conf" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/fdfs_client.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/controller/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/controller/SendEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/emailTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/emailTemplate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mail/src/test/java/com/neo/service/MailServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/src/test/java/com/neo/service/MailServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/static/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/static/image1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/thymeleaf.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/thymeleaf.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mail/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mail/target/classes/com/neo/service/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/target/classes/com/neo/service/MailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mail/target/classes/com/neo/service/impl/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/target/classes/com/neo/service/impl/MailServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mail/target/classes/templates/emailTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/target/classes/templates/emailTemplate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mail/target/test-classes/com/neo/service/MailServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mail/target/test-classes/com/neo/service/MailServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-boot-mail/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-web-thymeleaf/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-fastDFS/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,35 +110,60 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="java" value="3" />
+          <entry key="class" value="1" />
+          <entry key="conf" value="1" />
+          <entry key="html" value="4" />
+          <entry key="ico" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="30" />
+          <entry key="jpg" value="2" />
+          <entry key="md" value="2" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="2" />
+          <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="4" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="30" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="248" />
-          <entry key="java" value="315" />
+          <entry key="conf" value="2" />
+          <entry key="html" value="262" />
+          <entry key="java" value="411" />
+          <entry key="properties" value="2" />
+          <entry key="txt" value="10" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="248" />
-          <entry key="JAVA" value="315" />
+          <entry key="HTML" value="262" />
+          <entry key="JAVA" value="411" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -151,87 +171,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/service/impl/MailServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/fastdfs/FastDFSClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="99" column="42" selection-start-line="99" selection-start-column="5" selection-end-line="101" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/test/java/com/neo/service/MailServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="60" column="30" selection-start-line="60" selection-start-column="7" selection-end-line="61" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/controller/SendEmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+            <state relative-caret-position="1767">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1116#1141#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/service/MailService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="113" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/emailTemplate.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/thymeleaf.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-thymeleaf/src/main/java/com/neo/thymeleaf/ThymeleafApplication.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/templates/upload.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-thymeleaf/src/main/java/com/neo/thymeleaf/HelloController.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/templates/uploadStatus.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-thymeleaf/src/main/resources/templates/hello.html">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="46" />
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/fdfs_client.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/FastDFSApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/controller/GlobalExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/controller/UploadController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+              <folding>
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#1739#1740#0" expanded="true" />
+                <element signature="e#1776#1777#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -259,14 +284,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-mail/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-mail/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mail/src/test/java/com/neo/service/MailServiceTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/service/MailService.java" />
         <option value="$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/service/impl/MailServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/emailTemplate.html" />
         <option value="$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/thymeleaf.html" />
+        <option value="$PROJECT_DIR$/spring-boot-mail/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/controller/SendEmail.java" />
+        <option value="$PROJECT_DIR$/spring-boot-fastDFS/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/fastdfs/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/fdfs_client.conf" />
       </list>
     </option>
   </component>
@@ -295,6 +323,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-fastDFS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-fastDFS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-fastDFS" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spring-boot-mail" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -307,8 +349,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="393" />
-    <option name="y" value="252" />
+    <option name="x" value="261" />
+    <option name="y" value="345" />
     <option name="width" value="1560" />
     <option name="height" value="830" />
   </component>
@@ -350,8 +392,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -362,25 +402,25 @@
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastDFS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastDFS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastDFS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastDFS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -388,7 +428,7 @@
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastDFS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -397,7 +437,7 @@
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastDFS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -407,28 +447,17 @@
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastDFS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="neo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="fastdfs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="neo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastDFS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -436,16 +465,7 @@
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastDFS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -454,31 +474,20 @@
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-fastDFS" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="neo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-scheduler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -491,8 +500,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541782461417" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_192" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541821232158" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-fastDFS/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -502,6 +511,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA_Project\miocc\demo\spring-boot-examples\spring-boot-mail\src\main\resources\static" />
       <recent name="D:\IDEA_Project\miocc\demo\spring-boot-examples\spring-boot-mail\src\main\resources\templates" />
       <recent name="C:\Users\Administrator\Desktop\miocc\spring-boot-examples\spring-boot-mail\src\main\resources\static" />
     </key>
@@ -524,7 +534,7 @@
     </option>
     <option name="contentProportion" value="0.16188525" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.FastDFSApplication">
     <configuration name="All Features in: spring-boot-web" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/spring-boot-web" />
@@ -613,6 +623,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FastDFSApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-fastDFS" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.neo.FastDFSApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-web-thymeleaf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.neo.ThymeleafApplication" />
@@ -632,6 +649,7 @@
       <item itemvalue="Spring Boot.Unnamed" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.ThymeleafApplication" />
+      <item itemvalue="Spring Boot.FastDFSApplication" />
       <item itemvalue="Cucumber java.All Features in: spring-boot-web" />
       <item itemvalue="JUnit.MailServiceTest.testHtmlMail" />
       <item itemvalue="JUnit.MailServiceTest.sendInlineResourceMail" />
@@ -666,8 +684,18 @@
       <workItem from="1541605951803" duration="43000" />
       <workItem from="1541773388148" duration="1596000" />
       <workItem from="1541775240311" duration="1879000" />
-      <workItem from="1541777309504" duration="5107000" />
+      <workItem from="1541777309504" duration="5739000" />
+      <workItem from="1541815343080" duration="5959000" />
+      <workItem from="1541828373951" duration="603000" />
     </task>
+    <task id="LOCAL-00001" summary="完善模板发邮件">
+      <created>1541782513437</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541782513437</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -703,7 +731,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16248000" />
+    <option name="totallyTimeSpent" value="23442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,7 +746,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25402144" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21782842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -740,7 +768,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32765958" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.27375886" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.14042553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -748,7 +776,7 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Bean Validation" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.14879356" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.121983916" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -759,64 +787,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完善模板发邮件" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善模板发邮件" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/test/java/com/neo/ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-web-thymeleaf/src/main/java/com/neo/controller/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-web-thymeleaf/src/main/java/com/neo/model/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-web-thymeleaf/src/main/java/com/neo/repository/InMemoryMessageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-web-thymeleaf/src/main/java/com/neo/repository/MessageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-web-thymeleaf/src/main/java/com/neo/ThymeleafApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-web-thymeleaf/src/main/resources/templates/messages/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-web-thymeleaf/src/main/resources/templates/messages/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -840,9 +815,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-web-thymeleaf/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/static/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-web-thymeleaf/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -875,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-thymeleaf/src/main/java/com/neo/thymeleaf/ThymeleafApplication.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -895,6 +860,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/emailTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/fanout/FanoutReceiverB.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/fanout/FanoutReceiverC.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/fanout/FanoutSender.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/hello/HelloReceiver.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/hello/HelloSender.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/many/NeoReceiver1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/many/NeoReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/many/NeoSender2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/object/ObjectReceiver.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/object/ObjectSender.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/topic/TopicReceiver.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/topic/TopicReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java/com/neo/rabbit/topic/TopicSender.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockercompose-springboot-mysql-nginx/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.4/Repository/org/springframework/spring-context-support/5.1.2.RELEASE/spring-context-support-5.1.2.RELEASE.jar!/org/springframework/mail/javamail/MimeMessageHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4945">
+          <caret line="329" column="16" selection-start-line="329" selection-start-column="16" selection-end-line="329" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/thymeleaf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/static/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/static/image1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/service/MailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -904,32 +958,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/service/impl/MailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="99" column="42" selection-start-line="99" selection-start-column="5" selection-end-line="101" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/emailTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/resources/templates/thymeleaf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="266">
+          <caret line="99" column="64" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mail/src/main/java/com/neo/controller/SendEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+        <state relative-caret-position="190">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_EN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/spring-boot-fastDFS.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/fastdfs/FastDFSFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/fastdfs/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1116#1141#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/templates/uploadStatus.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/FastDFSApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/controller/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-fastDFS/src/main/java/com/neo/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+          <folding>
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
           </folding>
         </state>
       </provider>

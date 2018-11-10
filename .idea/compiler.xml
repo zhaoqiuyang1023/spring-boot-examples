@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-fastDFS" />
         <module name="spring-boot-mail" />
         <module name="spring-boot-web-thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-fastDFS" target="1.8" />
       <module name="spring-boot-mail" target="1.8" />
       <module name="spring-boot-web-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>

@@ -37,27 +37,17 @@ public class SendEmail {
     @Autowired
     private TemplateEngine templateEngine;
 
-    @RequestMapping("/static")
-    public String send(HttpServletRequest request) throws IOException {
-        String rscId = "neo006";
-        // String content="<html><body>这是有图片的邮件：<img src='cid:neo006'></body></html>";
-        InputStream inputStream = new ClassPathResource("templates/emailTemplate.html").getInputStream();
-        String content = new BufferedReader(new InputStreamReader(inputStream))
-                .lines().collect(Collectors.joining(System.lineSeparator()));
-        System.out.print(content);
-        Resource resource = new ClassPathResource("static/favicon.ico");
-        File file = resource.getFile();
-
-        mailService.sendInlineResourceMail("1186389154@qq.com", "主题：这是有图片的邮件", content, file.getPath(), rscId);
-        return "ok";
-    }
-
     @RequestMapping("/thymeleaf")
     public String thymeleaf(HttpServletRequest request) throws IOException {
 
         Context context = new Context();
         context.setVariable("userName", "赵小明");
+
+        System.out.println("URI:" + request.getRequestURI());
+        System.out.println("URL:" + request.getRequestURL());
+
         String Ip = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort();
+        System.out.println(Ip);
         context.setVariable("url", Ip + "/receive/" + "赵小明");
         context.setVariable("date", new Date());
         String emailContent = templateEngine.process("thymeleaf", context);
@@ -74,9 +64,9 @@ public class SendEmail {
             Resource resource = new ClassPathResource("static/favicon.ico");
             helper.addAttachment(resource.getFilename(), resource.getFile());
             mailSender.send(message);
-            logger.info("嵌入静态资源的邮件已经发送。");
+            logger.info("嵌入模板资源的邮件已经发送。");
         } catch (MessagingException e) {
-            logger.error("发送嵌入静态资源的邮件时发生异常！", e);
+            logger.error("发送嵌入模板的邮件时发生异常！", e);
         }
         return "ok";
     }
@@ -86,4 +76,22 @@ public class SendEmail {
 
         return name;
     }
+
+    @RequestMapping("/static")
+    public String send(HttpServletRequest request) throws IOException {
+        String rscId = "neo006";
+        // String content="<html><body>这是有图片的邮件：<img src='cid:neo006'></body></html>";
+        InputStream inputStream = new ClassPathResource("templates/emailTemplate.html").getInputStream();
+        String content = new BufferedReader(new InputStreamReader(inputStream))
+                .lines().collect(Collectors.joining(System.lineSeparator()));
+        System.out.print(content);
+       // FileSystemResource file = new FileSystemResource(new File(filePath));
+        Resource resource = new ClassPathResource("static/favicon.ico");
+        File file = resource.getFile();
+
+        mailService.sendInlineResourceMail("1186389154@qq.com", "主题：这是有图片的邮件", content, file.getPath(), rscId);
+        return "ok";
+    }
+
+
 }
