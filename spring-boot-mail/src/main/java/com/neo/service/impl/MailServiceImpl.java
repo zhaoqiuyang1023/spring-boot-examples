@@ -69,6 +69,9 @@ public class MailServiceImpl implements MailService{
             helper.setTo(to);
             helper.setSubject(subject);
             helper.setText(content, true);
+        /*    Resource resource = new ClassPathResource("static/favicon.ico");
+            File file = resource.getFile();
+            helper.addInline("src" ,resource);*/
 
             mailSender.send(message);
             logger.info("html邮件发送成功");

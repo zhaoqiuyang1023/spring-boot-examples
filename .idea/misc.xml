@@ -7,6 +7,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/spring-boot-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-web-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-fastDFS/pom.xml" />
       </list>
     </option>
   </component>
