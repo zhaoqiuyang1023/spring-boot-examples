@@ -5,9 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.FileSystemResource;
-import org.springframework.core.io.Resource;
+import org.springframework.core.io.*;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
@@ -71,9 +69,6 @@ public class MailServiceImpl implements MailService{
             helper.setTo(to);
             helper.setSubject(subject);
             helper.setText(content, true);
-        /*    Resource resource = new ClassPathResource("static/favicon.ico");
-            File file = resource.getFile();
-            helper.addInline("src" ,resource);*/
 
             mailSender.send(message);
             logger.info("html邮件发送成功");
@@ -139,6 +134,35 @@ public class MailServiceImpl implements MailService{
             logger.info("嵌入静态资源的邮件已经发送。");
         } catch (MessagingException e) {
             logger.error("发送嵌入静态资源的邮件时发生异常！", e);
+        }
+    }
+
+    @Override
+    public void sendInThymeleaf(String to, String subject, String content,String imageResourceName,String rscPath) {
+        MimeMessage message = mailSender.createMimeMessage();
+
+        try {
+            MimeMessageHelper helper = new MimeMessageHelper(message, true);
+            helper.setFrom(from);
+            helper.setTo(to);
+            helper.setSubject(subject);
+            helper.setText(content, true);
+
+            Resource resource = new ClassPathResource("static/a.png");
+            File file = resource.getFile();
+            FileSystemResource res = new FileSystemResource(file);
+
+
+            final InputStreamSource imageSource = new InputStreamResource(res.getInputStream());
+            helper.addInline(imageResourceName,res);
+
+
+            mailSender.send(message);
+            logger.info("嵌入静态资源的邮件已经发送。");
+        } catch (MessagingException e) {
+            logger.error("发送嵌入静态资源的邮件时发生异常！", e);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

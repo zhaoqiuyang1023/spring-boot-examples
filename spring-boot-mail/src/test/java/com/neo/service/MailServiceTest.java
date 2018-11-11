@@ -12,6 +12,9 @@ import org.thymeleaf.context.Context;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.HashMap;
 
 /**
  * Created by summer on 2017/5/4.
@@ -54,18 +57,28 @@ public class MailServiceTest {
         String content="<html><body>这是有图片的邮件：<img src=\'cid:" + rscId + "\' ></body></html>";
         Resource resource = new ClassPathResource("static/favicon.ico");
         File file = resource.getFile();
-
+        System.out.println(content);
         mailService.sendInlineResourceMail("1186389154@qq.com", "主题：这是有图片的邮件", content, file.getPath(), rscId);
     }
 
 
     @Test
-    public void sendTemplateMail() {
+    public void sendTemplateMail() throws IOException {
         //创建邮件正文
-        Context context = new Context();
-        context.setVariable("id", "006");
-        String emailContent = templateEngine.process("emailTemplate", context);
 
-        mailService.sendHtmlMail("1186389154@qq.com","主题：这是模板邮件",emailContent);
+        final Context ctx = new Context();
+        ctx.setVariable("name", "小明");
+        ctx.setVariable("subscriptionDate", new Date());
+        ctx.setVariable("hobbies", Arrays.asList("Cinema", "Sports", "Music"));
+        ctx.setVariable("imageResourceName", "a.png"); // so that we can reference it from HTML
+        Resource resource = new ClassPathResource("static/favicon.ico");
+
+        File file = resource.getFile();
+
+
+        final String htmlContent = this.templateEngine.process("email-inlineimage", ctx);
+        System.out.print(htmlContent);
+        mailService.sendInThymeleaf("1186389154@qq.com", "主题：这是有图片的邮件", htmlContent , "imageResourceName",file.getPath());
+
     }
 }
