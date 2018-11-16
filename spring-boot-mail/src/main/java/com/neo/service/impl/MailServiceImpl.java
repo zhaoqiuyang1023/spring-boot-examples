@@ -141,6 +141,11 @@ public class MailServiceImpl implements MailService{
     }
 
     @Override
+    public void sendThymeleafResourceMail(String to, String subject, String content, String rscPath, String rscId) {
+
+    }
+
+    @Override
     public void sendInThymeleaf(String to, String subject, String content,String imageResourceName,String rscPath) {
         MimeMessage message = mailSender.createMimeMessage();
 

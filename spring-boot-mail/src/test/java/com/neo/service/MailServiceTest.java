@@ -66,7 +66,7 @@ public class MailServiceTest {
     public void sendTemplateMail() throws IOException {
         //创建邮件正文
 
-        final Context ctx = new Context();
+      /*  final Context ctx = new Context();
         ctx.setVariable("name", "小明");
         ctx.setVariable("subscriptionDate", new Date());
         ctx.setVariable("hobbies", Arrays.asList("Cinema", "Sports", "Music"));
@@ -78,7 +78,10 @@ public class MailServiceTest {
 
         final String htmlContent = this.templateEngine.process("email-inlineimage", ctx);
         System.out.print(htmlContent);
-        mailService.sendInThymeleaf("1186389154@qq.com", "主题：这是有图片的邮件", htmlContent , "imageResourceName",file.getPath());
+        mailService.sendInThymeleaf("1186389154@qq.com", "主题：这是有图片的邮件", htmlContent , "imageResourceName",file.getPath());*/
+       inita();
+    }
 
+    private void inita() {
     }
 }
