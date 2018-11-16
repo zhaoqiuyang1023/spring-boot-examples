@@ -33,6 +33,7 @@ public class UploadController {
         try {
             // Get the file and save it somewhere
             String path=saveFile(file);
+
             redirectAttributes.addFlashAttribute("message",
                     "You successfully uploaded '" + file.getOriginalFilename() + "'");
             redirectAttributes.addFlashAttribute("path",
